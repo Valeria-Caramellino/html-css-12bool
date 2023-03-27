@@ -5,24 +5,98 @@
 }
 .Container{
     width: 100%;
+    margin-top: 1rem;
 }
 [class*= "col-1"]{
     min-width: calc(( 100% / 12 ) *1);
+    line-height: 2rem;
 }
 [class*= "col-2"]{
     min-width: calc(( 100% / 12) *2 );
+    line-height: 2rem;
 }
 [class*= "col-5"]{
     min-width: calc(( 100% / 12) *5) ;
+    line-height: 2rem;
 }
 [class*= "col-12"]{
     min-width: calc(( 100% / 12) *12);
+    line-height: 2rem;
 }
 [class*= "col-8"]{
     min-width: calc(( 100% / 12) *8);
+    line-height: 2rem;
 }
 [class*= "col-6"]{
     min-width: calc(( 100% / 12) *6);
+    line-height: 2rem;
+}
+[class*= "col-8"]{
+    min-width: calc(( 100% / 12) *8);
+    line-height: 2rem;
+}
+[class*= "col6nasted"]{
+    min-width: calc(( 100% / 12) *6 - 10px);
+    background-color: var(--secondary-color);
+    border: 1px solid white;
+}
+[class*= "col8nasted"]{
+    min-width: calc(( 100% / 12) *8 - 10px);
+    background-color: var(--secondary-color);
+    border: 1px solid white;
+}
+[class*= "col2nasted"]{
+    min-width: calc(( 100% / 12) *2 - 10px );
+    background-color: var(--secondary-color);
+    border: 1px solid white;
+}
+[class*= "col-12-s2"]{
+    min-width: calc(( 100% / 12) *12);
+    padding: 1rem;
+}
+[class*="col-1-s2"]{
+    min-width: calc(( 100% / 12) *1);
+    padding: 1rem;
+}
+[class*="col-11-s2"]{
+    min-width: calc(( 100% / 12) *11);
+    padding: 1rem;
+}
+[class*="col-10-s2"]{
+    min-width: calc(( 100% / 12) *10);
+    padding: 1rem;
+}
+[class*="col-2-s2"]{
+    min-width: calc(( 100% / 12) *2);
+    padding: 1rem;
+}
+[class*="col-9-s2"]{
+    min-width: calc(( 100% / 12) *9);
+    padding: 1rem;
+}
+[class*="col-3-s2"]{
+    min-width: calc(( 100% / 12) *3);
+    padding: 1rem;
+}
+[class*="col-4-s2"]{
+    min-width: calc(( 100% / 12) *4);
+    padding: 1rem;
+}
+[class*="col-8-s2"]{
+    min-width: calc(( 100% / 12) *8);
+    padding: 1rem;
+}
+[class*="col-5-s2"]{
+    min-width: calc(( 100% / 12) *5);
+    padding: 1rem;
+}
+[class*="col-6-s2"]{
+    min-width: calc(( 100% / 12) *6);
+    padding: 1rem;
+}
+[class*="col-7-s2"]{
+    min-width: calc(( 100% / 12) *7);
+    padding: 1rem;
 }
 /*DIMENSIONE COLONNE IN 12*/
 /*

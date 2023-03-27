@@ -16,6 +16,9 @@ h1{
     text-align: center;
     color: var(--primary-color-text);
 }
+.margin{
+    margin: 5px;
+}
 [class*= "col-"]{
     background-color: var(--primary-color);
     border: 1px solid white;
@@ -225,7 +228,7 @@ LG
     }
     .Container, header{
         max-width: 1100px;
-        margin: 0 auto;
+        margin: 1rem auto;
     }
    
     /*DIMENSIONE COLONNE IN 12*/
