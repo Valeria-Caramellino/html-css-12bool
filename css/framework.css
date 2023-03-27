@@ -50,28 +50,16 @@
     background-color: var(--secondary-color);
     border: 1px solid white;
 }
-[class*= "col-12-s2"]{
-    min-width: calc(( 100% / 12) *12);
-    padding: 1rem;
-}
+/******************/
+/*seconda sezione*/
+/****************/
+
 [class*="col-1-s2"]{
     min-width: calc(( 100% / 12) *1);
     padding: 1rem;
 }
-[class*="col-11-s2"]{
-    min-width: calc(( 100% / 12) *11);
-    padding: 1rem;
-}
-[class*="col-10-s2"]{
-    min-width: calc(( 100% / 12) *10);
-    padding: 1rem;
-}
 [class*="col-2-s2"]{
     min-width: calc(( 100% / 12) *2);
-    padding: 1rem;
-}
-[class*="col-9-s2"]{
-    min-width: calc(( 100% / 12) *9);
     padding: 1rem;
 }
 [class*="col-3-s2"]{
@@ -80,10 +68,6 @@
 }
 [class*="col-4-s2"]{
     min-width: calc(( 100% / 12) *4);
-    padding: 1rem;
-}
-[class*="col-8-s2"]{
-    min-width: calc(( 100% / 12) *8);
     padding: 1rem;
 }
 [class*="col-5-s2"]{
@@ -98,91 +82,64 @@
     min-width: calc(( 100% / 12) *7);
     padding: 1rem;
 }
-/*DIMENSIONE COLONNE IN 12*/
-/*
-.col-xs-1-12 {
-    flex-basis: calc (( 100% / 12 ) * 1 );
-    max-width: calc (( 100% / 12 ) * 1 );
+[class*="col-8-s2"]{
+    min-width: calc(( 100% / 12) *8);
+    padding: 1rem;
 }
-.col-xs-2-12 {
-    flex-basis: calc (( 100% / 12 ) * 2 );
-    max-width: calc( ( 100% / 12 ) * 2 );
+[class*="col-9-s2"]{
+    min-width: calc(( 100% / 12) *9);
+    padding: 1rem;
 }
-.col-xs-3-12 {
-    flex-basis: calc (( 100% / 12 ) * 3 );
-    max-width: calc( ( 100% / 12 ) * 3 );
+[class*="col-10-s2"]{
+    min-width: calc(( 100% / 12) *10);
+    padding: 1rem;
 }
-.col-xs-4-12 {
-    flex-basis: calc (( 100% / 12 ) * 4 );
-    max-width: calc( ( 100% / 12 ) * 4 );
+[class*="col-11-s2"]{
+    min-width: calc(( 100% / 12) *11);
+    padding: 1rem;
 }
-.col-xs-5-12 {
-    flex-basis: calc (( 100% / 12 ) * 5 );
-    max-width: calc( ( 100% / 12 ) * 5 );
+[class*= "col-12-s2"]{
+    min-width: calc(( 100% / 12) *12);
+    padding: 1rem;
 }
-.col-xs-6-12 {
-    flex-basis: calc (( 100% / 12 ) * 6 );
-    max-width: calc( ( 100% / 12 ) * 6 );
-}
-.col-xs-7-12 {
-    flex-basis: calc (( 100% / 12 ) * 7 );
-    max-width: calc( ( 100% / 12 ) * 7 );
-}
-.col-xs-8-12 {
-    flex-basis: calc (( 100% / 12 ) * 8 );
-    max-width: calc( ( 100% / 12 ) * 8 );
-}
-.col-xs-9-12 {
-    flex-basis: calc (( 100% / 12 ) * 9 );
-    max-width: calc( ( 100% / 12 ) * 9 );
-}
-.col-xs-10-12 {
-    flex-basis: calc (( 100% / 12 ) * 10 );
-    max-width: calc( ( 100% / 12 ) * 10 );
-}
-.col-xs-11-12 {
-    flex-basis: calc (( 100% / 12 ) * 11 );
-    max-width: calc( ( 100% / 12 ) * 11 );
-}
-.col-xs-12-12 {
-    flex-basis: calc (( 100% / 12 ) * 12 );
-    max-width: calc( ( 100% / 12 ) * 12 );
-}*/
 
-/*OFFSET PER COLONNE*/
-.col-xs-1-12-offset{
-    margin-left: calc ( ( 100% / 12 ) * 1 );
+/*********************************
+MARGINI
+*********************************/
+
+.margin-left-1-12{
+    margin-left: calc(( 100% / 12) * 1);
 }
-.col-xs-2-12-offset{
-    margin-left: calc ( ( 100% / 12 ) * 2 );
+.margin-left-2-12{
+    margin-left: calc(( 100% / 12) * 2);
 }
-.col-xs-3-12-offset{
-    margin-left: calc ( ( 100% / 12 ) * 3 );
+.margin-left-3-12{
+    margin-left: calc(( 100% / 12) * 3);
 }
-.col-xs-4-12-offset{
-    margin-left: calc ( ( 100% / 12 ) * 4 );
+.margin-left-4-12{
+    margin-left: calc(( 100% / 12) * 4);
 }
-.col-xs-5-12-offset{
-    margin-left: calc ( ( 100% / 12 ) * 5 );
+.margin-left-5-12{
+   margin-left: calc(( 100% / 12) * 5);
 }
-.col-xs-6-12-offset{
-    margin-left: calc ( ( 100% / 12 ) * 6 );
+.margin-left-6-12{
+    margin-left: calc(( 100% / 12) * 6);
 }
-.col-xs-7-12-offset{
-    margin-left: calc ( ( 100% / 12 ) * 7 );
+.margin-left-7-12{
+    margin-left: calc(( 100% / 12) * 7);
 }
-.col-xs-8-12-offset{
-    margin-left: calc ( ( 100% / 12 ) * 8 );
+.margin-left-8-12{
+    margin-left: calc(( 100% / 12) * 8);
 }
-.col-xs-9-12-offset{
-    margin-left: calc ( ( 100% / 12 ) * 9 );
+.margin-left-9-12{
+    margin-left: calc(( 100% / 12) * 9);
 }
-.col-xs-10-12-offset{
-    margin-left: calc ( ( 100% / 12 ) * 10 );
+.margin-left-10-12{
+    margin-left: calc(( 100% / 12) * 10);
 }
-.col-xs-11-12-offset{
-    margin-left: calc ( ( 100% / 12 ) * 11 );
+.margin-left-11-12{
+    margin-left: calc(( 100% / 12) * 11);
 }
-.col-xs-12-12-offset{
-    margin-left: calc ( ( 100% / 12 ) * 12 );
+.margin-left-12-12{
+    margin-left: calc(( 100% / 12) * 12);
 }
